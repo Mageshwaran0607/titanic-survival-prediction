@@ -1,0 +1,37 @@
+# Titanic Survival Prediction
+
+## Project Overview
+This project uses Machine Learning to predict whether a Titanic passenger survived or not.
+
+## Model
+A Decision Tree Classifier was trained using the Titanic dataset.
+
+## Features
+- Passenger Class (pclass)
+- Sex
+- Age
+- Fare
+
+## Model Accuracy
+The model achieved approximately 79.72% accuracy on the test dataset.
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- Joblib
+
+## Files
+- app.py - Streamlit application
+- model.joblib - Trained machine learning model
+- requirements.txt - Required Python libraries
+
+## How to Run
+Install the required libraries:
+
+pip install -r requirements.txt
+
+Then run:
+
+streamlit run app.py
